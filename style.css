@@ -1,0 +1,91 @@
+body{
+    background-image: url(/meu-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Arial', sans-serif ;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 
+    0 0 5px #ff0000,
+    0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff007f,
+    0 0 80px #ff007f,
+    0 0 90px #ff007f,
+    0 0 100px #ff007f;
+     animation: neon 1.5s; ease-in-out infinite alternate;
+}
+@keyframes neon {
+
+0%{
+    text-shadow: 
+    0 0 5px #ff0000,
+    0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff007f,
+    0 0 80px #ff007f,
+    0 0 90px #ff007f,
+    0 0 100px #ff007f;
+}
+
+
+100% {
+   text-shadow:
+    0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 30px #ff0000,
+    0 0 60px #ff007f,
+    0 0 120px #ff007f,
+    0 0 150px #ff007f,
+    0 0 180px #ff007f;
+}
+}
+hearder {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+.galeria {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 15px;
+    gap: 10px;
+    padding: 20px;
+}
+.galeria img {
+    border: 15px;
+    width: 300px;
+    display: flex;
+    margin: 10px ;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px rgba( 255, 215, 0, 0.8  ); */
+ 
+}
+@keyframes mover{
+    0%{left: 0;}
+    50%{left: calc(100%-50px);}
+    100%{left: 0;}
+}
+/* .elemento{
+    width: 3px;
+    height: 50px;
+      position: relative;
+    top: auto;
+    animation: mover 12s infinite linear ;
+} */
+
+footer{
+    display: inline-block;
+    background-color:#bb288a;
+     /* background: #bb288a; */
+     padding: 10px;
+    margin-top: 20px;
+  
+}
+a{
+    background-color: rgb(40, 209, 54);
+}
